@@ -1,0 +1,16 @@
+/* BASE STYLES */
+:root {
+    --text-color: #725C3A;
+    --link-color: #b3b792;
+    --background-color: #E5E0D8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
