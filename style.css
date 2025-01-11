@@ -39,6 +39,11 @@ nav {
     width: 100%;
     z-index: 1000;
     backdrop-filter: blur(5px);
+    transition: background-color 0.3s ease, opacity 0.5 ease;
+}
+
+.transparent-nav {
+    background-color: rgba(128, 150, 113, 0.8);
 }
 
 nav .left-nav a {
@@ -61,6 +66,7 @@ nav .right-nav a:hover {
 
 /* HERO */
 #hero {
+    color: var(--text-color);
     min-height: 100vh;
     flex-direction: column;
     justify-content: center;
