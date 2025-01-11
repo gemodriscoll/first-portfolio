@@ -6,4 +6,4 @@ This is my beginner portfolio website built in HTML & CSS only.
 - HTML/CSS only 🖥️
 
 ## License 📄
-This project is licensed under the MIT License. See the [LICENSE] (./license) file for details.
+This project is licensed under the MIT License. See the [license](https://github.com/gemodriscoll/first-portfolio/blob/main/LICENSE) file for details.
