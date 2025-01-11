@@ -1,8 +1,8 @@
 /* BASE STYLES */
 :root {
-    --text-color: #725C3A;
-    --link-color: #809671;
-    --background-color: #E5E0D8;
+    --text-color: #292831;
+    --link-color: #fbbbad;
+    --background-color: #fbbbad;
 }
 
 * {
@@ -28,7 +28,7 @@ a {
 
 /* NAVBAR */
 nav {
-    background-color: #809671;
+    background-color: #ee8695;
     display: flex;
     justify-content: space-between;
     padding: 0 3.125rem;
@@ -43,7 +43,7 @@ nav {
 }
 
 .transparent-nav {
-    background-color: rgba(128, 150, 113, 0.8);
+    background-color: rgba(238, 134, 149, 0.8);
 }
 
 nav .left-nav a {
@@ -60,28 +60,64 @@ nav .right-nav a {
 }
 
 nav .right-nav a:hover {
-    color: #D2AB80;
+    color: #333f58;
     transition: color 0.3s ease-in-out;
 }
 
 /* HERO */
 #hero {
-    color: var(--text-color);
-    min-height: 100vh;
+    background-color: #333f58;
+    width: 88%;
+    margin: auto auto;
+    border-radius: 30px;
+    color: #E5E0D8;
     flex-direction: column;
     justify-content: center;
-    padding: 8rem 5rem;
     display: flex;
     align-items: center;
     text-align: center;
-    gap: 1rem
+    margin-top: 7rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    background-image: linear-gradient(163deg, #333f58 0%, #ee8695 100%);
+    transition: all .3s ease;
+}
+
+.hero-text {
+    background-color: #333f58;
+    border-radius: 30px;
+    width: 100%;
+    height: 100%;
+    color: #E5E0D8;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem 10rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: all .2s ease;
+}
+
+.hero-text:hover {
+    transform: scale(98%);
+    border-radius: 30px;
+}
+   
+#hero:hover {
+    box-shadow: 0px 0px 30px 20px rgba(238, 134, 149, 0.8);
+}
+
+#hero h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
 }
 
 #hero .headshot {
     width: 20rem;
     height: 20rem;
     overflow: hidden;
-    margin-top: 1rem;
+    margin-top: 2rem;
     margin-bottom: 37px;
     border-radius: 50%;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -103,8 +139,17 @@ nav .right-nav a:hover {
     display: flex;
     justify-content: center;
     gap: 1rem;
-    font-size: 2rem;
+    font-size: 2.5rem;
+    margin-top: 3rem;
 }
+
+.social-links a:hover {
+    color: #E5E0D8;
+    transition: color 0.3s ease-in-out;
+}
+
+/* PROJECTS */
+
 
 /* MEDIA QUERIES FOR RESPONSIVENESS */
 @media (max-width: 992px) {
@@ -128,7 +173,7 @@ nav .right-nav a:hover {
 
     #skills i {
         font-size: 2.5rem;
-    }
+        }
 }
 
 @media (max-width: 768px) {
