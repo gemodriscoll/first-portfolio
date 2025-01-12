@@ -9,6 +9,7 @@
         />
 		<!-- STYLE SHEET LINK -->
         <link rel="stylesheet" href="style.css" />
+        
 		<!-- GOOGLE FONT LINK -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,6 +17,7 @@
 
         <!-- FONT AWESOME LINK -->
         <script src="https://kit.fontawesome.com/3da35216e9.js" crossorigin="anonymous"></script>
+
     </head>
     <body>
         <header>
@@ -42,7 +44,13 @@
                 </div>
                 <div class="bio">
                     <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem vitae labore a soluta, doloribus amet odit veritatis, molestiae illo facilis fugiat quibusdam repudiandae illum, deleniti voluptates ea beatae eveniet error eligendi. Tempora aut obcaecati voluptate. Possimus iure molestias eaque mollitia pariatur hic, qui itaque, nobis provident, praesentium voluptatibus modi eum!
+                        My name is Gem, and I am a passionate and driven individual transitioning into the world of technology and computer science. I hold a Bachelor's Degree in Behavioural Science (Psychology) from Queensland University of Technology, where I developed a deep understanding of human behavior, problem-solving, and critical thinking. Building on that foundation, I am now pursuing a Master of Information Technology with a specialization in Computer Science at QUT, set to begin in February 2025.
+                        <br>
+                        <br>
+                        Through this portfolio, I aim to showcase the projects and knowledge I gain throughout my journey. From foundational courses like Object-Oriented Programming and Data Structures to advanced topics such as Computational Complexity and Software Security, I am eager to apply my growing skills to solve real-world problems, create innovative solutions, and explore the intersection of technology and user experience.
+                        <br>
+                        <br>
+                        Feel free to explore my portfolio and see my projects come to life as I grow in this exciting field. If you’d like to connect or collaborate, don’t hesitate to reach out!
                     </p>
                 </div>
                 <div class="social-links">
@@ -57,51 +65,105 @@
                     </a>
                 </div>
             </div>
+
 			</section>
 
             <!-- SECTION 2: Projects -->
-		    <section id="projects">
+		    <section id="projects">            
+            
+                <!-- ARROW BUTTON -->
+            <div class="scroll-down">
+                <a href="#projects">
+                    <i class="fa-solid fa-arrow-down"></i>
+                </a>
+            <div class="scroll-circle"></div>
+            </div>
                 <div class="section-header">
                     <h2>Projects</h2>
                     <p>Showcase of my work.</p>
+                </div>
                 <div class="project-container">
                     <div class="project-box">
                         <img src="images/project1.jpg" alt="Project 1">
                         <div class="project-info">
                             <h3>Project 1</h3>
-                            <p>Description of Project 1.</p>
+                            <p>This is a placeholder.</p>
+                            <div class="credit"><p>Artwork © @asadrococo</p></div>
+                            
                         </div>
                     </div>
                     <div class="project-box">
                         <img src="images/project2.jpg" alt="Project 2">
                         <div class="project-info">
                             <h3>Project 2</h3>
-                            <p>Description of Project 2.</p>
+                            <p>This is a placeholder.</p>
+                            <div class="credit"><p>Artwork © @asadrococo</p></div>
                         </div>
                     </div>
                     <div class="project-box">
                         <img src="images/project3.jpg" alt="Project 3">
                         <div class="project-info">
                             <h3>Project 3</h3>
-                            <p>Description of Project 3.</p>
+                            <p>This is a placeholder.</p>
+                            <div class="credit"><p>Artwork © @asadrococo</p></div>
                         </div>
                     </div>
                 </div>
             </section>
-
-            <!-- SECTION 3: Skills -->
-		    <section id="skills">
-			    <h2>This is skills.</h2>
-		    </section>
-
+        
+           <!-- SECTION 3: Skills -->
+            <section id="skills">
+                <div class="section-header">
+                    <h2>Skills</h2>
+                    <p>Technologies I work with.</p>
+                </div>
+                <div class="skills-container">
+                    <div class="skill">
+                        <i class="fa-brands fa-html5"></i>
+                        <p>HTML5</p>
+                    </div>
+                    <div class="skill">
+                        <i class="fa-brands fa-css3"></i>
+                        <p>CSS3</p>
+                    </div>
+                    <div class="skill">
+                        <i class="fa-brands fa-js"></i>
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="skill">
+                        <i class="fa-brands fa-python"></i>
+                        <p>Python</p>
+                    </div>
+                </div>
+            </section>
+        
            <!-- SECTION 4: Contact -->
 		    <section id="contact">
-			    <h2>This is contact.</h2> 
-		    </section>
+                <h2>Contact Me</h2>
+                <form id="contact-form" action="https://formspree.io/f/xyzzlawa" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit">Send</button>
+                </form>
+            </section>
         </main>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
         <script src="script.js"></script>
     </body>        
     <footer>
-            <!-- place footer here -->
+        <p>© 2025 Gemma O'Driscoll. All Rights Reserved.</p>
+        <p>Disclaimer: Not all artwork displayed on this website belongs to me. All third-party artwork is used with permission or under applicable licenses, and full credit is given where due.</p>
     </footer>
 </html>
